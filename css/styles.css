@@ -19,6 +19,13 @@
     border: 1px dashed black;
 }
 
+.column-30 {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border: 1px dashed black;
+}
+
 .column-40 {
     display: flex;
     width: 40%;
@@ -46,6 +53,10 @@
 
 .bg-pink {
     background-color: rgb(255, 192, 203);
+}
+
+.bg-salmone {
+    background-color: rgb(240, 128, 128);
 }
 
 /* sezione header */
@@ -167,8 +178,32 @@ header {
 
 .quinta-sezione {
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 1100px;
     background-color: rgb(34, 139, 34);
     margin: 50px auto;
+}
+
+/* sesta sezione */
+
+.container-sesta-sezione {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(35, 39, 42);
+}
+
+.sesta-sezione {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.column-piccola-sesta {
+    display: flex;
+    width: calc(70% / 4);
+    height: 100%;
+    border: 1px dashed white;
+    background-color: rgb(32, 178, 170);
 }
