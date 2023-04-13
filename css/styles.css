@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: monteserrat, sans-serif;
+}
+
 /* utilities */
 
 .row {
@@ -206,4 +210,33 @@ header {
     height: 100%;
     border: 1px dashed white;
     background-color: rgb(32, 178, 170);
+}
+
+/* sezione footer */
+
+footer {
+    display: flex;
+    background-color: rgb(35, 39, 42);
+    height: 100px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    width: 60%;
+    height: 80px;
+    background-color: rgb(127, 255, 212);
+}
+
+.column-footer {
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, .bottone-footer {
+    background-color: rgb(255, 182, 193);
+    border: 1px dashed black;
+    padding: 5px;
 }
