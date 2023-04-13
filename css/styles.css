@@ -124,3 +124,34 @@ header {
     height: 500px;
     margin: 50px auto;
 }
+
+/* terza sezione */
+
+.container-terza-sezione {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+}
+
+.terza-sezione {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin: 50px auto;
+}
+
+/* quarta sezione */
+
+.container-quarta-sezione {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.quarta-sezione {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin: 50px auto;
+}
