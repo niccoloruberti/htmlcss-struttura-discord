@@ -155,3 +155,20 @@ header {
     height: 500px;
     margin: 50px auto;
 }
+
+/* quinta sezione */
+
+.container-quinta-sezione {
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+}
+
+.quinta-sezione {
+    display: flex;
+    width: 50%;
+    height: 1100px;
+    background-color: rgb(34, 139, 34);
+    margin: 50px auto;
+}
